@@ -6,6 +6,7 @@ import { useState } from "react";
 
 const queryClient = new QueryClient();
 
+
 export default function App() {
 	const [isAuthenticated, setAuth] = useState(false);
 	const handleLogOut = () => {
