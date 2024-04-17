@@ -22,7 +22,7 @@ export default function App() {
 						<Typography sx={{ flexGrow: 1 }}>Car Shop</Typography>
 						{isAuthenticated ? (
 							<Button onClick={handleLogOut}>
-								<Typography>Log out</Typography>
+								<Typography color="whitesmoke">Log out</Typography>
 							</Button>
 						) : (
 							<></>
